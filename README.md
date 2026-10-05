@@ -12,4 +12,4 @@ Roadmaps are being added as the community builds them.
 
 Want to add a roadmap, resource, or project?
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md).\n
