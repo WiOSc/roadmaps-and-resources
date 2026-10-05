@@ -2,14 +2,24 @@
 
 A community-maintained collection of learning roadmaps and resources for people getting started in technology.
 
-Choose a roadmap, learn at your own pace, build projects, and share your progress. 🚀
+Choose a roadmap, learn at your own pace, build projects, and share your progress.
 
-## 🗺️ Roadmaps
+## Roadmaps
 
 Roadmaps are being added as the community builds them.
 
-## 🤝 Contributing
+## Contributors
+
+This project is built and maintained by the community.
+
+Want to contribute? Add your name, contribution, and GitHub profile through a Pull Request.
+
+| Contributor       | Contribution            | GitHub                                           |
+| ----------------- | ----------------------- | ------------------------------------------------ |
+| Kathrina Elangbam | Web Development Roadmap | [@Kathrina-dev](https://github.com/Kathrina-dev) |
+
+## Contributing
 
 Want to add a roadmap, resource, or project?
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).\n
+See [CONTRIBUTING.md](CONTRIBUTING.md).

@@ -1,23 +1,17 @@
 # Contributing to Women in Open Source — Roadmaps & Resources
 
-Thank you for your interest in contributing to the **Women in Open Source Club**! 💜
+Thank you for your interest in contributing to the Women in Open Source Club. This repository is a community-maintained collection of structured learning roadmaps. We welcome contributions from everyone, especially first-time open-source contributors!
 
-This repository is a community-maintained collection of structured learning roadmaps. We welcome contributions from everyone, especially first-time open-source contributors!
+## What can I contribute?
 
----
+* A new roadmap for a topic or skill track
+* A resource such as a tutorial, documentation, book, or video
+* A project idea for hands-on learning
+* An improvement to an existing roadmap
+* A broken-link fix
+* A correction or clarification in documentation
 
-## 🌟 What can I contribute?
-
-* 🗺️ **A new roadmap** for a topic or skill track
-* 📚 **A resource** (tutorial, documentation, book, video)
-* 💡 **A project idea** for hands-on learning
-* 📈 **An improvement** to an existing roadmap
-* 🔗 **A broken-link fix**
-* ✏️ **A correction or clarification** in documentation
-
----
-
-## 📂 Adding a Roadmap
+## Adding a Roadmap
 
 New roadmaps should be created inside the `roadmaps/` folder with a dedicated subfolder and a `README.md` file:
 
@@ -27,7 +21,7 @@ roadmaps/
     └── README.md
 ```
 
-For example, to create a Web Development roadmap:
+For example:
 
 ```text
 roadmaps/
@@ -35,9 +29,7 @@ roadmaps/
     └── README.md
 ```
 
----
-
-## 📐 Roadmap Format
+## Roadmap Format
 
 Every roadmap should follow this standard structure:
 
@@ -46,11 +38,11 @@ Every roadmap should follow this standard structure:
 
 > Short description of the roadmap.
 
-## 🎯 Prerequisites
+## Prerequisites
 
 What should someone know before starting?
 
-## 🗺️ Learning Path
+## Learning Path
 
 ### 1. [Topic]
 
@@ -87,7 +79,7 @@ Description of the project.
 
 ---
 
-## 🚀 Projects
+## Projects
 
 ### Beginner
 
@@ -101,37 +93,35 @@ Description of the project.
 
 - Project
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Resource](URL)
 
-## ✅ Completion Checklist
+## Completion Checklist
 
 - [ ] Completed the learning path
 - [ ] Built the projects
 - [ ] Built a personal project
 
-## 🤝 Contributing
+## Contributing
 
 Found something that could be improved?
 
 See the repository's [CONTRIBUTING.md](../../CONTRIBUTING.md).
 ```
 
----
+## Resource Guidelines
 
-## 📋 Resource Guidelines
-
-### Prefer 🟢
+### Prefer
 
 * Official documentation
 * High-quality tutorials
-* Practical / project-based resources
+* Practical or project-based resources
 * Free resources where possible
 * Beginner-friendly resources when appropriate
 * Stable and maintained resources
 
-### Avoid 🔴
+### Avoid
 
 * Spam or promotional links
 * Affiliate links
@@ -139,9 +129,7 @@ See the repository's [CONTRIBUTING.md](../../CONTRIBUTING.md).
 * Low-quality content
 * Unmaintained resources when better alternatives exist
 
----
-
-## 🔄 Pull Request Workflow
+## Pull Request Workflow
 
 ```text
 Fork
@@ -163,27 +151,27 @@ Merge
 
 ### Git Commands for Beginners
 
-1. **Fork and clone the repository**:
+1. **Fork and clone the repository:**
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/roadmaps-and-resources.git
 cd roadmaps-and-resources
 ```
 
-1. **Create a new branch**:
+1. **Create a new branch:**
 
 ```bash
 git checkout -b add-my-roadmap
 ```
 
-1. **Make your changes, then stage and commit them**:
+1. **Make your changes, then stage and commit them:**
 
 ```bash
 git add .
 git commit -m "Add web development roadmap"
 ```
 
-1. **Push to your fork**:
+1. **Push to your fork:**
 
 ```bash
 git push origin add-my-roadmap
@@ -191,9 +179,7 @@ git push origin add-my-roadmap
 
 1. **Open a Pull Request** on GitHub.
 
----
-
-## ✅ Automated Checks
+## Automated Checks
 
 When you open a Pull Request, GitHub automatically checks your contribution.
 
@@ -203,4 +189,4 @@ The repository checks:
 * Links
 * Pull Request requirements
 
-You don't need to manually run these checks to contribute, but fixing reported issues before requesting review will make the process smoother. You will see the status of these checks at the bottom of your Pull Request page.\n
+You don't need to manually run these checks to contribute, but fixing reported issues before requesting review will make the process smoother. You will see the status of these checks at the bottom of your Pull Request page.
