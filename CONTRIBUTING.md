@@ -8,12 +8,12 @@ This repository is a community-maintained collection of structured learning road
 
 ## 🌟 What can I contribute?
 
-- 🗺️ **A new roadmap** for a topic or skill track
-- 📚 **A resource** (tutorial, documentation, book, video)
-- 💡 **A project idea** for hands-on learning
-- 📈 **An improvement** to an existing roadmap
-- 🔗 **A broken-link fix**
-- ✏️ **A correction or clarification** in documentation
+* 🗺️ **A new roadmap** for a topic or skill track
+* 📚 **A resource** (tutorial, documentation, book, video)
+* 💡 **A project idea** for hands-on learning
+* 📈 **An improvement** to an existing roadmap
+* 🔗 **A broken-link fix**
+* ✏️ **A correction or clarification** in documentation
 
 ---
 
@@ -54,15 +54,15 @@ What should someone know before starting?
 
 ### 1. [Topic]
 
-**Learn**
+#### Learn
 
 - [Resource](URL)
 
-**Build**
+#### Build
 
 Description of the project the learner should build.
 
-**You should learn**
+#### You should learn
 
 - Concept
 - Concept
@@ -72,15 +72,15 @@ Description of the project the learner should build.
 
 ### 2. [Topic]
 
-**Learn**
+#### Learn
 
 - [Resource](URL)
 
-**Build**
+#### Build
 
 Description of the project.
 
-**You should learn**
+#### You should learn
 
 - Concept
 - Concept
@@ -124,20 +124,20 @@ See the repository's [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
 ### Prefer 🟢
 
-- Official documentation
-- High-quality tutorials
-- Practical / project-based resources
-- Free resources where possible
-- Beginner-friendly resources when appropriate
-- Stable and maintained resources
+* Official documentation
+* High-quality tutorials
+* Practical / project-based resources
+* Free resources where possible
+* Beginner-friendly resources when appropriate
+* Stable and maintained resources
 
 ### Avoid 🔴
 
-- Spam or promotional links
-- Affiliate links
-- Duplicate resources
-- Low-quality content
-- Unmaintained resources when better alternatives exist
+* Spam or promotional links
+* Affiliate links
+* Duplicate resources
+* Low-quality content
+* Unmaintained resources when better alternatives exist
 
 ---
 
@@ -170,26 +170,26 @@ git clone https://github.com/YOUR-USERNAME/roadmaps-and-resources.git
 cd roadmaps-and-resources
 ```
 
-2. **Create a new branch**:
+1. **Create a new branch**:
 
 ```bash
 git checkout -b add-my-roadmap
 ```
 
-3. **Make your changes, then stage and commit them**:
+1. **Make your changes, then stage and commit them**:
 
 ```bash
 git add .
 git commit -m "Add web development roadmap"
 ```
 
-4. **Push to your fork**:
+1. **Push to your fork**:
 
 ```bash
 git push origin add-my-roadmap
 ```
 
-5. **Open a Pull Request** on GitHub.
+1. **Open a Pull Request** on GitHub.
 
 ---
 
@@ -199,8 +199,8 @@ When you open a Pull Request, GitHub automatically checks your contribution.
 
 The repository checks:
 
-- Markdown formatting
-- Links
-- Pull Request requirements
+* Markdown formatting
+* Links
+* Pull Request requirements
 
-You don't need to manually run these checks to contribute, but fixing reported issues before requesting review will make the process smoother. You will see the status of these checks at the bottom of your Pull Request page.
+You don't need to manually run these checks to contribute, but fixing reported issues before requesting review will make the process smoother. You will see the status of these checks at the bottom of your Pull Request page.\n
