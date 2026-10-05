@@ -1,0 +1,57 @@
+name: Propose a New Roadmap
+description: Suggest a new learning roadmap for the community
+title: "feat(roadmap): Propose [Roadmap Name] Roadmap"
+labels: ["roadmap-proposal", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new roadmap! Please fill out the details below.
+
+  - type: input
+    id: topic_name
+    attributes:
+      label: Roadmap / Topic Name
+      description: What technology or skill area should be added?
+      placeholder: "e.g., Web Development, Cybersecurity, Cloud Computing"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_useful
+    attributes:
+      label: Why would this roadmap be useful?
+      description: Explain the learning value and community demand for this topic.
+      placeholder: "Explain why beginners would benefit from this roadmap track..."
+    validations:
+      required: true
+
+  - type: input
+    id: target_audience
+    attributes:
+      label: Intended Audience
+      description: Who is this roadmap for? (e.g., Complete Beginners, Intermediate Developers)
+      placeholder: "e.g., Beginners → Intermediate"
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_topics
+    attributes:
+      label: Suggested Learning Topics
+      description: List the main modules or steps that should be included.
+      placeholder: |
+        1. Topic 1
+        2. Topic 2
+        3. Topic 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: optional_resources
+    attributes:
+      label: Optional Suggested Resources
+      description: Any initial high-quality links or documentation to include?
+      placeholder: "Resource Name - https://example.com"
+    validations:
+      required: false

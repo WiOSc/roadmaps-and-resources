@@ -1,0 +1,37 @@
+name: Welcome First-Time Contributors
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome:
+    name: Welcome Message
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Welcome First-Time Contributors
+        uses: actions/first-interaction@v1.3.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            🎉 Thank you for opening your first issue in Women in Open Source!
+
+            We appreciate you taking the time to share your feedback or resource suggestion with our community. 💜
+
+            A maintainer will review your issue shortly. In the meantime, feel free to check out our [Contributing Guidelines](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md)!
+
+            Happy learning! 🚀
+          pr-message: |
+            🎉 Thank you for your first contribution to Women in Open Source!
+
+            We really appreciate you taking the time to improve the community resources. 💜
+
+            A maintainer will review your PR soon. Please make sure your contribution follows our [Contributing Guidelines](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md).
+
+            Happy contributing! 🚀

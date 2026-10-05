@@ -1,0 +1,69 @@
+name: Suggest a Resource
+description: Recommend a high-quality learning resource for a roadmap
+title: "docs(resource): Suggest resource for [Roadmap Name]"
+labels: ["resource-suggestion", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a learning resource! Please verify that the link works before submitting.
+
+  - type: input
+    id: roadmap_topic
+    attributes:
+      label: Target Roadmap / Topic
+      description: Which roadmap does this resource belong to?
+      placeholder: "e.g., Web Development"
+    validations:
+      required: true
+
+  - type: input
+    id: resource_name
+    attributes:
+      label: Resource Title / Name
+      description: Title of the article, documentation, course, or video.
+      placeholder: "e.g., MDN Web Docs - HTML Basics"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      description: Direct link to the resource.
+      placeholder: "https://example.com/resource"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: Resource Type
+      options:
+        - "Documentation"
+        - "Article / Guide"
+        - "Video / Course"
+        - "Interactive / Book"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty_level
+    attributes:
+      label: Difficulty Level
+      options:
+        - "Beginner"
+        - "Intermediate"
+        - "Advanced"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_useful
+    attributes:
+      label: Why is this resource useful?
+      description: 1-2 sentences explaining why learners will benefit from this resource.
+      placeholder: "Explains core concepts clearly with practical code examples..."
+    validations:
+      required: true
