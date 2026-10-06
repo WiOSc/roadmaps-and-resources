@@ -16,7 +16,8 @@ Want to contribute? Add your name, contribution, and GitHub profile through a Pu
 
 | Contributor       | Contribution            | GitHub                                           |
 | ----------------- | ----------------------- | ------------------------------------------------ |
-| Kathrina Elangbam | Web Development Roadmap | [@Kathrina-dev](https://github.com/Kathrina-dev) |
+| Kathrina Elangbam | Frontend Roadmap        | [@Kathrina-dev](https://github.com/Kathrina-dev) |
+| Shaunak Choudhury | Backend Roadmap         | [@shaunakc11](https://github.com/shaunakc11)     |
 
 ## Contributing
 
