@@ -15,11 +15,9 @@ export default {
     // Rationale: HTML elements like badges, <details>, and align attributes are sometimes used for design.
     "no-inline-html": false,
 
-    // MD024/no-duplicate-heading: Configured for siblings only
-    // Rationale: Allows repeated subheadings like "Learn" or "Build" under separate numbered topics.
-    "no-duplicate-heading": {
-      siblings_only: true
-    },
+    // MD024/no-duplicate-heading: Disabled
+    // Rationale: We intentionally reuse headings like "Learn" and "Build" for each topic in the roadmap. These are not true duplicates but rather repeated structural elements across different sections.
+    "no-duplicate-heading": false,
 
     // MD009/no-trailing-spaces: Enabled
     // Rationale: Catches unnecessary trailing whitespace at line ends.
