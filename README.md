@@ -20,7 +20,6 @@ Want to contribute? Add your name, contribution, and GitHub profile through a Pu
 | Shaunak Choudhury | Backend Roadmap         | [@shaunakc11](https://github.com/shaunakc11)     |
 | Pranjal Kumar     | Git & Github Roadmap    | [@pranjal-kumar-0](github.com/pranjal-kumar-0)   |
 
-
 ## Contributing
 
 Want to add a roadmap, resource, or project?
