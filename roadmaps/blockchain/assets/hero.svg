@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="248" viewBox="0 0 960 248" fill="none" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Blockchain from zero</title>
+  <desc id="heroDesc">Three ideas in a row: a shared history, keys you control, and a first contract on a testnet.</desc>
+  <rect width="960" height="248" rx="18" fill="#1C1917"/>
+  <rect x="1" y="1" width="958" height="246" rx="17" stroke="#3F3A34"/>
+  <text x="48" y="58" fill="#D6D3D1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" letter-spacing="2.4">BEGINNER ROADMAP</text>
+  <text x="48" y="108" fill="#F7F3EA" font-family="Georgia, Times New Roman, serif" font-size="40">Blockchain, from zero</text>
+  <text x="48" y="148" fill="#D6D3D1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Read the system. Keep your keys. Ship on a testnet.</text>
+  <g transform="translate(48 176)">
+    <rect width="168" height="36" rx="18" fill="#134E4A"/>
+    <text x="84" y="23" text-anchor="middle" fill="#F7F3EA" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">1  Shared history</text>
+    <rect x="184" width="168" height="36" rx="18" fill="#9A3412"/>
+    <text x="268" y="23" text-anchor="middle" fill="#F7F3EA" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">2  Your keys</text>
+    <rect x="368" width="196" height="36" rx="18" fill="#292524"/>
+    <text x="466" y="23" text-anchor="middle" fill="#F7F3EA" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">3  A first contract</text>
+  </g>
+  <g transform="translate(700 46)">
+    <rect x="18" y="18" width="86" height="64" rx="8" fill="#292524" stroke="#1F8A84" stroke-width="2"/>
+    <rect x="30" y="32" width="40" height="6" rx="3" fill="#1F8A84"/>
+    <rect x="30" y="46" width="58" height="6" rx="3" fill="#57534E"/>
+    <rect x="30" y="60" width="28" height="6" rx="3" fill="#E07A3D"/>
+    <rect x="78" y="78" width="86" height="64" rx="8" fill="#292524" stroke="#1F8A84" stroke-width="2"/>
+    <rect x="90" y="92" width="40" height="6" rx="3" fill="#1F8A84"/>
+    <rect x="90" y="106" width="58" height="6" rx="3" fill="#57534E"/>
+    <rect x="90" y="120" width="28" height="6" rx="3" fill="#E07A3D"/>
+    <path d="M104 50h22M136 110h22" stroke="#E07A3D" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

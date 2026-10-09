@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="392" viewBox="0 0 880 392" fill="none" role="img" aria-labelledby="keysTitle keysDesc">
+  <title id="keysTitle">What you share and what you keep</title>
+  <desc id="keysDesc">The seed phrase recreates the private key. The private key signs and must stay secret. The public key checks signatures. The address is the short public name you can share.</desc>
+  <rect width="880" height="392" rx="16" fill="#F7F3EA"/>
+  <text x="32" y="42" fill="#1C1917" font-family="Georgia, Times New Roman, serif" font-size="22">Four names for one identity</text>
+  <g transform="translate(32 64)">
+    <rect width="816" height="64" rx="10" fill="#FFFFFF" stroke="#9A3412" stroke-width="2"/>
+    <text x="20" y="26" fill="#9A3412" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">1  SEED PHRASE  ·  KEEP OFFLINE</text>
+    <text x="20" y="48" fill="#1C1917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Twelve or twenty-four words. They recreate the wallet if you lose the device.</text>
+  </g>
+  <g transform="translate(32 144)">
+    <rect width="816" height="64" rx="10" fill="#FFFFFF" stroke="#9A3412" stroke-width="2"/>
+    <text x="20" y="26" fill="#9A3412" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">2  PRIVATE KEY  ·  STAYS INSIDE THE WALLET</text>
+    <text x="20" y="48" fill="#1C1917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">A secret number. It produces signatures. Anyone who copies it can spend.</text>
+  </g>
+  <g transform="translate(32 224)">
+    <rect width="816" height="64" rx="10" fill="#FFFFFF" stroke="#0F6E6B" stroke-width="2"/>
+    <text x="20" y="26" fill="#0F6E6B" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">3  PUBLIC KEY  ·  DERIVED FROM THE PRIVATE KEY</text>
+    <text x="20" y="48" fill="#1C1917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">The matching public number. The network uses it to check that you signed.</text>
+  </g>
+  <g transform="translate(32 304)">
+    <rect width="816" height="64" rx="10" fill="#134E4A"/>
+    <text x="20" y="26" fill="#F6E3C4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">4  ADDRESS  ·  SAFE TO SHARE</text>
+    <text x="20" y="48" fill="#F7F3EA" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">A short name made from the public key. This is what you paste when someone pays you.</text>
+  </g>
+</svg>
