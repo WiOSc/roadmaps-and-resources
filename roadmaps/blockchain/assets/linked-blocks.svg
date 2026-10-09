@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="340" viewBox="0 0 880 340" fill="none" role="img" aria-labelledby="blocksTitle blocksDesc">
+  <title id="blocksTitle">How blocks point at each other</title>
+  <desc id="blocksDesc">Three blocks. Each block stores the previous block hash. The hash of block 2 is the previous hash stored in block 3.</desc>
+  <rect width="880" height="340" rx="16" fill="#F7F3EA"/>
+  <text x="32" y="40" fill="#1C1917" font-family="Georgia, Times New Roman, serif" font-size="22">Each block remembers the one before it</text>
+  <g transform="translate(32 68)">
+    <rect width="220" height="168" rx="12" fill="#FFFFFF" stroke="#0F6E6B" stroke-width="2"/>
+    <text x="16" y="32" fill="#0F6E6B" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Block 101</text>
+    <text x="16" y="64" fill="#78716C" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Previous hash</text>
+    <text x="16" y="84" fill="#1C1917" font-family="Consolas, Courier New, monospace" font-size="14">a91c…00</text>
+    <text x="16" y="114" fill="#78716C" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Transactions</text>
+    <text x="16" y="134" fill="#1C1917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Alice pays Bob</text>
+    <text x="16" y="156" fill="#9A3412" font-family="Consolas, Courier New, monospace" font-size="13">Hash  b7e2…14</text>
+  </g>
+  <g transform="translate(330 68)">
+    <rect width="220" height="168" rx="12" fill="#FFFFFF" stroke="#0F6E6B" stroke-width="2"/>
+    <text x="16" y="32" fill="#0F6E6B" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Block 102</text>
+    <text x="16" y="64" fill="#78716C" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Previous hash</text>
+    <text x="16" y="84" fill="#9A3412" font-family="Consolas, Courier New, monospace" font-size="14">b7e2…14</text>
+    <text x="16" y="114" fill="#78716C" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Transactions</text>
+    <text x="16" y="134" fill="#1C1917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Bob pays Cho</text>
+    <text x="16" y="156" fill="#9A3412" font-family="Consolas, Courier New, monospace" font-size="13">Hash  44aa…90</text>
+  </g>
+  <g transform="translate(628 68)">
+    <rect width="220" height="168" rx="12" fill="#FFFFFF" stroke="#0F6E6B" stroke-width="2"/>
+    <text x="16" y="32" fill="#0F6E6B" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Block 103</text>
+    <text x="16" y="64" fill="#78716C" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Previous hash</text>
+    <text x="16" y="84" fill="#9A3412" font-family="Consolas, Courier New, monospace" font-size="14">44aa…90</text>
+    <text x="16" y="114" fill="#78716C" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Transactions</text>
+    <text x="16" y="134" fill="#1C1917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Cho pays Ada</text>
+    <text x="16" y="156" fill="#9A3412" font-family="Consolas, Courier New, monospace" font-size="13">Hash  09f1…c2</text>
+  </g>
+  <path d="M252 152h78" stroke="#C2410C" stroke-width="2" stroke-linecap="round"/>
+  <path d="M318 146l12 6-12 6" fill="#C2410C"/>
+  <path d="M550 152h78" stroke="#C2410C" stroke-width="2" stroke-linecap="round"/>
+  <path d="M616 146l12 6-12 6" fill="#C2410C"/>
+  <text x="32" y="278" fill="#1C1917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Change one transaction in block 101 and its hash changes.</text>
+  <text x="32" y="304" fill="#1C1917" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Block 102 still stores the old hash, so the link breaks in public.</text>
+</svg>
