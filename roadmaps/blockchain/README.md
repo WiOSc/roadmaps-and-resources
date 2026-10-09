@@ -2,32 +2,21 @@
 
 <img src="assets/hero.svg" alt="Blockchain from zero. Three stages: shared history, your keys, and a first contract on a testnet." width="960" />
 
-> A beginner path from "I have heard the word blockchain" to reading a real transaction and deploying a small contract on a test network.
+> A beginner path from the idea of a shared ledger to reading a real transaction and deploying a small contract on a test network.
 
-You do not need to buy anything to finish this guide. You do not need a computer science degree. You need a browser, a notebook, and the patience to explain each idea in your own words before you open the next page.
+You can finish the whole path in a browser, without buying cryptocurrency we will use testnet networks. Stages 1 to 5 are concepts. [Stage 6](06-first-contract.md) is the first time you write [Solidity](https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html).
 
-This is a learning guide for builders. It is not investment advice, and it will not tell you what to buy.
+## How to use it
 
-Checked against official docs in October 2026. If a tutorial and an official doc disagree, trust the official doc. Tooling changes. The ideas below change more slowly.
-
-## How to use these pages
-
-1. Follow the stages in order. Each one uses the words from the page before it.
-2. On each page, read the picture, do the exercise, then open the hidden check.
-3. Tick the checklist at the bottom when that exercise is done.
-
-## Who this is for
-
-You are in the right place if you can use a browser and you want to understand how a public blockchain works before you trust one with money or code.
-
-Programming starts in [stage 6](06-first-contract.md). Stages 1 to 5 are readable with no coding background. When code arrives, the guide uses [Solidity](https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html) in the browser, then points you to JavaScript only if you want a web page in front of the contract.
+1. Follow the eight stages in order.
+2. On each page, read the diagram, do the exercise, then open the answer under it.
+3. Tick that stage on the checklist at the bottom of this page.
 
 ## Prerequisites
 
 - A computer and a modern browser
-- A notes file, paper or digital
-- About 30 to 40 hours for the first full pass, split however you like
-- Willingness to ignore price charts until the last page
+- A place to keep notes
+- About 30 to 40 hours for one full pass
 
 Helpful later, and fine to learn alongside stage 6:
 
