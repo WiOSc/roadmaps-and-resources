@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- You can open and use a terminal (cd, ls, making folders).
+- You can open and use a terminal (cd, ls, making foldders).
 - You have Git installed, check with `git --version`. If you don't have it yet, search "install git" for your OS and grab it.
 - A free [GitHub account](https://github.com/signup).
 
