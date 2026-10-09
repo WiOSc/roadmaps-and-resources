@@ -10,7 +10,7 @@ Choose a roadmap, learn at your own pace, build projects, and share your progres
 | --- | --- | --- |
 | [Blockchain](roadmaps/blockchain/README.md) | Concepts, wallet safety, and a first testnet contract | Beginners |
 | [Frontend](roadmaps/frontend/README.md) | HTML, CSS, JavaScript, and modern interface tools | Beginners |
-| [Backend](roadmaps/backend/ROADMAP.md) | Networking, servers, data, and systems | Beginners moving into backends |
+| [Backend](roadmaps/backend/ROADMAP.md) | Networking, servers, data, and systems | Beginners |
 | [Git and GitHub](roadmaps/git-github/ROADMAP.md) | Version control and collaboration | Beginners |
 | [UI/UX Design](roadmaps/UIUX%20Design/README.md) | Design foundations for interfaces | Beginners |
 
@@ -24,6 +24,7 @@ Want to contribute? Add your name, contribution, and GitHub profile through a Pu
 | ----------------- | ----------------------- | ------------------------------------------------ |
 | Kathrina Elangbam | Frontend Roadmap        | [@Kathrina-dev](https://github.com/Kathrina-dev) |
 | Shaunak Choudhury | Backend Roadmap         | [@shaunakc11](https://github.com/shaunakc11)     |
+| Rakesh Kumar Rabha | Blockchain Roadmap         | [@0xPixelNinja](https://github.com/0xPixelNinja)     |
 | Mayank Bothra     | UI/UX Design Roadmap    | [@mayankwho](https://github.com/mayankWHO)       |
 | Pranjal Kumar     | Git & Github Roadmap    | [@pranjal-kumar-0](github.com/pranjal-kumar-0)   |
 
