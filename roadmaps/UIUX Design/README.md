@@ -341,7 +341,6 @@ Document one complete case study from problem discovery to final design. Prepare
 - [W3C Web Accessibility Initiative](https://www.w3.org/WAI/) - Accessibility standards and learning material.
 - [Mobbin](https://mobbin.com/) - Reference library of real-world mobile and web interfaces.
 
-
 ## Other Helpful Websites for inspiration
 
 - [Abduzeedo](https://abduzeedo.com/)

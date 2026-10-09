@@ -18,6 +18,8 @@ Want to contribute? Add your name, contribution, and GitHub profile through a Pu
 | ----------------- | ----------------------- | ------------------------------------------------ |
 | Kathrina Elangbam | Frontend Roadmap        | [@Kathrina-dev](https://github.com/Kathrina-dev) |
 | Shaunak Choudhury | Backend Roadmap         | [@shaunakc11](https://github.com/shaunakc11)     |
+| Mayank Bothra     | UI/UX Design Roadmap| [@mayankwho](https://github.com/mayankWHO) |
+
 
 ## Contributing
 
