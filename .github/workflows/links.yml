@@ -1,0 +1,24 @@
+name: Check Links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  link-check:
+    name: Validate Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check Links with Lychee
+        uses: lycheeverse/lychee-action@v1.9.3
+        with:
+          # Check all Markdown files, excluding node_modules and .git
+          args: --verbose --no-progress --exclude-mail './**/*.md'
+          # External websites can temporarily fail or rate-limit automated runners.
+          # fail: false ensures temporary third-party network issues do not hard-block PR merges.
+          fail: false

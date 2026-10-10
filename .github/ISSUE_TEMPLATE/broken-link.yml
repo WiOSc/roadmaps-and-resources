@@ -1,0 +1,45 @@
+name: Report a Broken Link
+description: Report a dead, failing, or outdated link in a roadmap
+title: "fix(link): Broken link in [Roadmap Name]"
+labels: ["broken-link", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep our roadmap resources up to date!
+
+  - type: input
+    id: roadmap
+    attributes:
+      label: Target Roadmap
+      description: Which roadmap contains the broken link?
+      placeholder: "e.g., Web Development"
+    validations:
+      required: true
+
+  - type: input
+    id: broken_resource
+    attributes:
+      label: Resource Name
+      description: Title or description of the failing link.
+      placeholder: "e.g., HTML & CSS Tutorial"
+    validations:
+      required: true
+
+  - type: input
+    id: broken_url
+    attributes:
+      label: Broken URL
+      description: The dead or 404 URL.
+      placeholder: "https://example.com/old-link"
+    validations:
+      required: true
+
+  - type: input
+    id: replacement_url
+    attributes:
+      label: Suggested Replacement URL (Optional)
+      description: Do you know an updated link or working alternative?
+      placeholder: "https://example.com/new-link"
+    validations:
+      required: false
