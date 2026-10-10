@@ -24,7 +24,7 @@ You do not need a security background to begin. Basic HTML, JavaScript, browser 
 ### Your Main Paths
 
 ```mermaid
-graph TD;
+graph LR;
     A[Web basics] --> B[Safe labs];
     B --> C[Common web problems];
     C --> D[Test and document];
