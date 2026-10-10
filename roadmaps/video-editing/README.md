@@ -39,7 +39,7 @@ no one, not even van gogh or any artist you look up to, made what they made just
 
 and whenever they came across something, they'd ask:
 
-**"what about this makes me feel what i'm feeling?"**
+> "what about this makes me feel what i'm feeling?"
 
 and that just goes into the brain library. like what makes a person feel what.
 
@@ -232,7 +232,7 @@ grade one clip in 3 moods (warm and cozy, cold and sad, high contrast and moody)
 
 something like:
 
-```
+```text
 my-project/
 ├── footage/
 ├── audio/
@@ -276,6 +276,7 @@ after all this, the only thing that makes you better is **making stuff**. watch 
 - a video in your chosen field that you'd be proud to put in a portfolio
 
 ## Additional Resources
+
 - [editing pack 1](https://drive.google.com/drive/folders/1gno2NMHNM2E7obfDM_V3SmJK2u3lw19G?usp=drive_link)
 - [editing pack 2](https://drive.google.com/drive/folders/1fUF8hiOmhAipjZWuL4FSkP6H8KEO9Ez7?usp=drive_link)
 - free editors: DaVinci Resolve, CapCut and more
