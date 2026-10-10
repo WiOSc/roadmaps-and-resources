@@ -13,6 +13,7 @@ Roadmaps are being added as the community builds them.
 - [Git & GitHub](roadmaps/git-github/ROADMAP.md)
 - [UI/UX Design](roadmaps/UIUX%20Design/README.md)
 - [Web Application Security](roadmaps/web-security/README.md)
+- [Video Editing](roadmaps/video-editing/README.md)
 
 ## Contributors
 
