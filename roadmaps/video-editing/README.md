@@ -1,4 +1,4 @@
-# 🎬 The Video Editing Roadmap (that nobody made, so i made it)
+# 🎬 The Video Editing Roadmap (so cool meow)
 
 > there's no official ONE PATH TO BECOME GAWX (follow this guy if you dont already) to video editing. so this is just how _i_ would look at things if i wanted to actually get better, without wasting months on stuff that doesn't matter 😎
 
