@@ -1,11 +1,5 @@
 # Web Application Security Roadmap
 
-<p align="center">
-  <a href="https://roadmap.sh/pdfs/roadmaps/cyber-security.pdf"><img src="https://img.shields.io/badge/LEVEL-Beginner_to_Intermediate-7C3AED?style=for-the-badge" alt="Beginner to intermediate level"></a>
-  <a href="https://portswigger.net/web-security/learning-paths"><img src="https://img.shields.io/badge/LEARN-By_Doing-16A34A?style=for-the-badge" alt="Learn by doing"></a>
-  <a href="https://owasp.org/www-project-juice-shop/"><img src="https://img.shields.io/badge/PRACTICE-Safe_Labs-F97316?style=for-the-badge" alt="Safe labs only"></a>
-</p>
-
 > [!WARNING]
 > A clear path for learning how web apps work, how they can fail, and how to help make them safer.
 
