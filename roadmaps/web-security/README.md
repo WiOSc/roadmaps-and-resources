@@ -24,11 +24,11 @@ You do not need a security background to begin. Basic HTML, JavaScript, browser 
 ### Your Main Paths
 
 ```mermaid
-flowchart LR
-  A[Web basics] --> B[Labs]
-  B --> C[Common web vulns]
-  C --> D[Test and document]
-  D --> E[Build safer apps]
+graph TD;
+    A[Web basics] --> B[Safe labs];
+    B --> C[Common web problems];
+    C --> D[Test and document];
+    D --> E[Build safer apps];
 ```
 
 Pick the pace that works for you:
