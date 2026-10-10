@@ -276,11 +276,10 @@ after all this, the only thing that makes you better is **making stuff**. watch 
 - a video in your chosen field that you'd be proud to put in a portfolio
 
 ## Additional Resources
-
-- follow **GAWX** if you dont already
-- your own swipe file (the best resource there is)
+- [editing pack 1](https://drive.google.com/drive/folders/1gno2NMHNM2E7obfDM_V3SmJK2u3lw19G?usp=drive_link)
+- [editing pack 2](https://drive.google.com/drive/folders/1fUF8hiOmhAipjZWuL4FSkP6H8KEO9Ez7?usp=drive_link)
 - free editors: DaVinci Resolve, CapCut and more
-- free music and sound effects sites (look up royalty free libraries)
+- free music and sound effects sites ---> [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/)
 
 ### 🎁 Bonus tips
 
