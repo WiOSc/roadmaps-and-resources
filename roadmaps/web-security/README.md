@@ -6,6 +6,7 @@
   <a href="https://owasp.org/www-project-juice-shop/"><img src="https://img.shields.io/badge/PRACTICE-Safe_Labs-F97316?style=for-the-badge" alt="Safe labs only"></a>
 </p>
 
+> [!WARNING]
 > A clear path for learning how web apps work, how they can fail, and how to help make them safer.
 
 <p align="center">
