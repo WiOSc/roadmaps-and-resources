@@ -654,20 +654,7 @@ Want 3D? Try Blender or Three.js. Want sound? Try Sonic Pi or Tone.js. Want GPU 
 ### Step 7 — Build a personal collection
 Keep your experiments in one place. Your portfolio doesn't need to look professional on day one. It needs to show that you are exploring.
 
----
 
-# A few ideas for making this roadmap feel alive
-
-If you're turning this README into a community guide, workshop, club resource, or website, make it welcoming rather than encyclopaedic:
-
-- Let people choose by **interest**, not by programming language.
-- Give each topic a tiny “try this in 15 minutes” challenge.
-- Link to actual projects and source code, not just documentation.
-- Include beginner, intermediate, and “I have lost control of the project” levels.
-- Invite people to submit strange experiments, works in progress, and happy accidents.
-- Add monthly prompts, remix jams, show-and-tell sessions, and collaborative projects.
-- Make it okay to be silly. Serious craft and playful experiments belong in the same room.
-- Include accessibility, consent, attribution, and licensing in the culture—not as an afterthought.
 
 ---
 
