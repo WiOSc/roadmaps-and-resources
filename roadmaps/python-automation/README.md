@@ -13,11 +13,11 @@ automating it](https://i.imgflip.com/1bij.jpg)
 You don't need to know Python already. You do need a computer, a little
 patience, and a repetitive task you'd like to stop doing by hand.
 
--   Install [Python](https://www.python.org/downloads/) and an editor
+- Install [Python](https://www.python.org/downloads/) and an editor
     such as [VS Code](https://code.visualstudio.com/).
--   Learn to run a script from the terminal. Keep projects in separate
+- Learn to run a script from the terminal. Keep projects in separate
     folders and use a virtual environment (`python -m venv .venv`).
--   Use dummy files and test accounts while learning. Start with a **dry
+- Use dummy files and test accounts while learning. Start with a **dry
     run** that previews changes before moving files, sending emails, or
     clicking buttons.
 
@@ -32,11 +32,11 @@ steps, and make it reliable.
 
 #### Learn
 
--   [Automate the Boring Stuff with Python --- free online
+- [Automate the Boring Stuff with Python --- free online
     book](https://automatetheboringstuff.com/3e/) --- start with
     Chapters 1--8 for variables, conditions, loops, functions, lists,
     dictionaries, and strings.
--   [Python tutorial](https://docs.python.org/3/tutorial/) --- use this
+- [Python tutorial](https://docs.python.org/3/tutorial/) --- use this
     when you want a second explanation or a reference.
 
 Automation is mostly ordinary programming applied to useful chores. A
@@ -52,10 +52,10 @@ confirmation step before actually moving anything.
 
 #### You should learn
 
--   `if`, `for`, functions, lists, dictionaries, imports, and
+- `if`, `for`, functions, lists, dictionaries, imports, and
     exceptions.
--   `pathlib` for paths and `shutil` for copying or moving files.
--   How to read an error message and test a script on a temporary
+- `pathlib` for paths and `shutil` for copying or moving files.
+- How to read an error message and test a script on a temporary
     folder.
 
 ------------------------------------------------------------------------
@@ -68,13 +68,13 @@ perfect format.
 
 #### Learn
 
--   [Automate the Boring Stuff --- Chapter 9: Regular
+- [Automate the Boring Stuff --- Chapter 9: Regular
     Expressions](https://automatetheboringstuff.com/3e/chapter9.html)
--   [Automate the Boring Stuff --- Chapters 10--11: Files and
+- [Automate the Boring Stuff --- Chapters 10--11: Files and
     folders](https://automatetheboringstuff.com/3e/)
--   [Python `pathlib`](https://docs.python.org/3/library/pathlib.html)
+- [Python `pathlib`](https://docs.python.org/3/library/pathlib.html)
     and [Python `re` (regex)](https://docs.python.org/3/library/re.html)
--   [regex101](https://regex101.com/) --- try patterns and inspect what
+- [regex101](https://regex101.com/) --- try patterns and inspect what
     they match.
 
 Regex is a way to find text by pattern. For example, `r"\bINV-\d+\b"`
@@ -91,11 +91,11 @@ expected pattern into a `NeedsReview` folder instead of guessing.
 
 #### You should learn
 
--   `re.search`, `re.findall`, `re.sub`, capture groups, and raw strings
+- `re.search`, `re.findall`, `re.sub`, capture groups, and raw strings
     like `r"\d+"`.
--   File extensions, safe renaming, duplicate detection, and
+- File extensions, safe renaming, duplicate detection, and
     `try/except`.
--   The golden rule: preview changes, keep a log, and don't delete
+- The golden rule: preview changes, keep a log, and don't delete
     originals until you trust the result.
 
 ![Drake meme: manually opening 200 files vs searching them with a
@@ -111,14 +111,14 @@ keep receiving the same spreadsheet in slightly different shapes.
 
 #### Learn
 
--   [Automate the Boring Stuff --- Excel, Google Sheets, and SQLite
+- [Automate the Boring Stuff --- Excel, Google Sheets, and SQLite
     chapters](https://automatetheboringstuff.com/3e/)
--   [pandas getting
+- [pandas getting
     started](https://pandas.pydata.org/docs/getting_started/index.html)
     --- clean, filter, combine, and summarise tables.
--   [openpyxl documentation](https://openpyxl.readthedocs.io/en/stable/)
+- [openpyxl documentation](https://openpyxl.readthedocs.io/en/stable/)
     --- edit Excel workbooks and formatting.
--   [Google Sheets API
+- [Google Sheets API
     quickstart](https://developers.google.com/sheets/api/quickstart/python)
 
 A handy rule: use **pandas** when the task is mainly data cleaning or
@@ -135,9 +135,9 @@ overwrite the original input files.
 
 #### You should learn
 
--   Filtering, grouping, joins, missing values, and date parsing.
--   When to use CSV, Excel, Google Sheets, or SQLite.
--   How to check row counts and totals before and after a
+- Filtering, grouping, joins, missing values, and date parsing.
+- When to use CSV, Excel, Google Sheets, or SQLite.
+- How to check row counts and totals before and after a
     transformation.
 
 **Project inspiration:** [pandas
@@ -155,16 +155,16 @@ to operate a website. Those are related, but different jobs.
 
 #### Learn
 
--   [Automate the Boring Stuff --- Chapter 13: Web
+- [Automate the Boring Stuff --- Chapter 13: Web
     Scraping](https://automatetheboringstuff.com/3e/)
--   [Requests](https://requests.readthedocs.io/en/latest/) --- fetch
+- [Requests](https://requests.readthedocs.io/en/latest/) --- fetch
     pages and APIs.
--   [Beautiful
+- [Beautiful
     Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) ---
     parse HTML.
--   [Playwright for Python](https://playwright.dev/python/) --- automate
+- [Playwright for Python](https://playwright.dev/python/) --- automate
     a browser using page elements and locators.
--   [Scrapy
+- [Scrapy
     tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html) ---
     a more structured scraping framework.
 
@@ -183,9 +183,9 @@ Include a timeout and a useful message when the site layout changes.
 
 #### You should learn
 
--   HTML, CSS selectors, HTTP status codes, timeouts, and retries.
--   Static HTML vs content rendered by JavaScript.
--   Why stable Playwright locators are usually better than clicking
+- HTML, CSS selectors, HTTP status codes, timeouts, and retries.
+- Static HTML vs content rendered by JavaScript.
+- Why stable Playwright locators are usually better than clicking
     fixed screen coordinates.
 
 **Real project to inspect:** [Scrapy's examples and
@@ -206,15 +206,15 @@ scanned images, tables, or a mixture.
 
 #### Learn
 
--   [Automate the Boring Stuff --- PDF and Word
+- [Automate the Boring Stuff --- PDF and Word
     documents](https://automatetheboringstuff.com/3e/)
--   [pypdf](https://pypdf.readthedocs.io/en/stable/) --- extract text,
+- [pypdf](https://pypdf.readthedocs.io/en/stable/) --- extract text,
     split, and merge PDFs.
--   [python-docx](https://python-docx.readthedocs.io/en/latest/) ---
+- [python-docx](https://python-docx.readthedocs.io/en/latest/) ---
     create and edit Word files.
--   [Pillow](https://pillow.readthedocs.io/en/stable/) --- crop, resize,
+- [Pillow](https://pillow.readthedocs.io/en/stable/) --- crop, resize,
     and process images.
--   [pytesseract](https://github.com/madmaze/pytesseract) and [Tesseract
+- [pytesseract](https://github.com/madmaze/pytesseract) and [Tesseract
     OCR](https://github.com/tesseract-ocr/tesseract) --- recognise text
     in scanned images.
 
@@ -231,10 +231,10 @@ found, flag the document instead of inventing one.
 
 #### You should learn
 
--   Text extraction vs OCR, and why scanned PDFs need different
+- Text extraction vs OCR, and why scanned PDFs need different
     handling.
--   How to validate extracted fields against expected formats.
--   How to keep the original document and a record of what your script
+- How to validate extracted fields against expected formats.
+- How to keep the original document and a record of what your script
     changed.
 
 **Project inspiration:**
@@ -253,13 +253,13 @@ automatically should come later.
 
 #### Learn
 
--   [Automate the Boring Stuff --- Chapter 20: Email and
+- [Automate the Boring Stuff --- Chapter 20: Email and
     notifications](https://automatetheboringstuff.com/3e/)
--   [Gmail API Python
+- [Gmail API Python
     quickstart](https://developers.google.com/workspace/gmail/api/quickstart/python)
--   [Gmail API search
+- [Gmail API search
     guide](https://developers.google.com/workspace/gmail/api/guides/filtering)
--   [Python `email`
+- [Python `email`
     package](https://docs.python.org/3/library/email.html) --- work with
     message content.
 
@@ -276,10 +276,10 @@ sending behind a manual confirmation.
 
 #### You should learn
 
--   Gmail search queries, labels, message metadata, and OAuth.
--   The difference between reading a message, creating a draft, and
+- Gmail search queries, labels, message metadata, and OAuth.
+- The difference between reading a message, creating a draft, and
     sending it.
--   How to handle API errors and protect tokens and personal data.
+- How to handle API errors and protect tokens and personal data.
 
 ------------------------------------------------------------------------
 
@@ -292,14 +292,14 @@ can land in the wrong place.
 
 #### Learn
 
--   [Automate the Boring Stuff --- Chapter 23: Controlling the Keyboard
+- [Automate the Boring Stuff --- Chapter 23: Controlling the Keyboard
     and Mouse](https://automatetheboringstuff.com/3e/)
--   [PyAutoGUI
+- [PyAutoGUI
     documentation](https://pyautogui.readthedocs.io/en/latest/) ---
     screenshots, clicks, keyboard input, and image matching.
--   [PyAutoGUI
+- [PyAutoGUI
     quickstart](https://pyautogui.readthedocs.io/en/latest/quickstart.html)
--   [Playwright](https://playwright.dev/python/) --- for browser
+- [Playwright](https://playwright.dev/python/) --- for browser
     workflows, prefer page locators when possible.
 
 Choose the least fragile method available: an API first, browser/DOM
@@ -318,11 +318,11 @@ unattended.
 
 #### You should learn
 
--   `pyautogui.click`, `write`, `hotkey`, screenshots, and fail-safe
+- `pyautogui.click`, `write`, `hotkey`, screenshots, and fail-safe
     behaviour.
--   Why focus, screen scaling, timing, and unexpected dialogs can break
+- Why focus, screen scaling, timing, and unexpected dialogs can break
     a macro.
--   How to log each action and ask for confirmation before consequential
+- How to log each action and ask for confirmation before consequential
     actions.
 
 **Project inspiration:** [PyAutoGUI's examples and
@@ -343,14 +343,14 @@ automation tool.
 
 #### Learn
 
--   [Automate the Boring Stuff --- scheduling and launching
+- [Automate the Boring Stuff --- scheduling and launching
     programs](https://automatetheboringstuff.com/3e/)
--   [Python `logging`](https://docs.python.org/3/library/logging.html)
--   [Python `argparse`](https://docs.python.org/3/library/argparse.html)
+- [Python `logging`](https://docs.python.org/3/library/logging.html)
+- [Python `argparse`](https://docs.python.org/3/library/argparse.html)
     --- give your script command-line options.
--   [Watchdog](https://python-watchdog.readthedocs.io/en/stable/) ---
+- [Watchdog](https://python-watchdog.readthedocs.io/en/stable/) ---
     react to filesystem changes.
--   [Schedule](https://schedule.readthedocs.io/en/stable/) --- simple
+- [Schedule](https://schedule.readthedocs.io/en/stable/) --- simple
     in-process scheduling.
 
 For a script that must run while you're away, use your operating
@@ -367,11 +367,11 @@ hand.
 
 #### You should learn
 
--   Logging, command-line arguments, configuration, retries, and
+- Logging, command-line arguments, configuration, retries, and
     timeouts.
--   Idempotency: running the same job twice should not create duplicate
+- Idempotency: running the same job twice should not create duplicate
     work.
--   How to handle partial failures and avoid silently skipping files.
+- How to handle partial failures and avoid silently skipping files.
 
 ------------------------------------------------------------------------
 
@@ -382,88 +382,88 @@ reliable tool than start five ambitious ones.
 
 ### Beginner
 
--   **Downloads janitor:** `pathlib` + `shutil` + `logging`; sort files
+- **Downloads janitor:** `pathlib` + `shutil` + `logging`; sort files
     with preview and an undo log.
--   **Receipt detective:** `re` + `csv`; extract dates and invoice IDs
+- **Receipt detective:** `re` + `csv`; extract dates and invoice IDs
     from sample text files.
--   **Screenshot librarian:** `Pillow` + hashes; make thumbnails and
+- **Screenshot librarian:** `Pillow` + hashes; make thumbnails and
     identify duplicate screenshots.
 
 ### Intermediate
 
--   **Spreadsheet rescue tool:** `pandas` + `openpyxl`; merge monthly
+- **Spreadsheet rescue tool:** `pandas` + `openpyxl`; merge monthly
     files, flag missing values, and create a clean report.
--   **Inbox briefing bot:** Gmail API + regex + SQLite; collect matching
+- **Inbox briefing bot:** Gmail API + regex + SQLite; collect matching
     emails into a digest without sending anything.
--   **Document intake assistant:** `watchdog` + `pypdf` + regex +
+- **Document intake assistant:** `watchdog` + `pypdf` + regex +
     `openpyxl`; process PDFs, update a tracker, and flag uncertain
     matches.
 
 ### Advanced
 
--   **Personal admin command centre:** `argparse` + `logging` + SQLite;
+- **Personal admin command centre:** `argparse` + `logging` + SQLite;
     run selected jobs, track results, and show a daily summary.
--   **Public-page change monitor:** Requests/Beautiful Soup or
+- **Public-page change monitor:** Requests/Beautiful Soup or
     Playwright + SQLite + email notification; track changes without
     hammering the site.
--   **Human-approved desktop workflow:** PDF extraction + OCR +
+- **Human-approved desktop workflow:** PDF extraction + OCR +
     spreadsheet updates + PyAutoGUI; automate the boring steps but pause
     for approval before important actions.
 
 ## Tricks That Make Automation Better
 
--   **Automate the stable part first.** If the task changes every time,
+- **Automate the stable part first.** If the task changes every time,
     write down the steps before coding.
--   **Preview before changing things.** Add `--dry-run` to file-moving,
+- **Preview before changing things.** Add `--dry-run` to file-moving,
     renaming, and batch-editing scripts.
--   **Prefer APIs over clicks.** APIs are usually more reliable and
+- **Prefer APIs over clicks.** APIs are usually more reliable and
     easier to test than screen coordinates.
--   **Make failures visible.** Log the filename or record that failed,
+- **Make failures visible.** Log the filename or record that failed,
     not just "something went wrong."
--   **Keep raw inputs.** Write results to a new folder or file until you
+- **Keep raw inputs.** Write results to a new folder or file until you
     trust the output.
--   **Test awkward cases.** Empty files, duplicate names, missing
+- **Test awkward cases.** Empty files, duplicate names, missing
     columns, slow pages, and unexpected pop-ups are where automation
     breaks.
--   **Don't overengineer.** A 30-line script that reliably saves you 20
+- **Don't overengineer.** A 30-line script that reliably saves you 20
     minutes every week is a win.
 
 ## Additional Resources
 
--   [Automate the Boring Stuff with Python --- free online
+- [Automate the Boring Stuff with Python --- free online
     book](https://automatetheboringstuff.com/3e/)
--   [Invent with Python](https://inventwithpython.com/) --- more free
+- [Invent with Python](https://inventwithpython.com/) --- more free
     books and project ideas from Al Sweigart.
--   [Python standard library](https://docs.python.org/3/library/)
--   [Real Python tutorials](https://realpython.com/) --- deeper
+- [Python standard library](https://docs.python.org/3/library/)
+- [Real Python tutorials](https://realpython.com/) --- deeper
     explanations when you need them.
--   [Awesome Python](https://github.com/vinta/awesome-python) --- a
+- [Awesome Python](https://github.com/vinta/awesome-python) --- a
     broad library catalogue; choose tools for a task rather than
     installing everything.
--   [Automate the Boring Stuff
+- [Automate the Boring Stuff
     workbook](https://inventwithpython.com/automate3workbook/) --- extra
     exercises if you want more practice.
 
 ## Completion Checklist
 
--   [ ] Wrote and ran small Python scripts from the terminal.
--   [ ] Built a file organiser with a dry-run mode.
--   [ ] Used regex to extract a pattern from messy text.
--   [ ] Cleaned a spreadsheet without overwriting the source.
--   [ ] Built either a web watcher or a document-processing script.
--   [ ] Tried a Gmail API workflow with safe permissions.
--   [ ] Built one desktop macro and tested its fail-safe.
--   [ ] Added logs, useful errors, and a way to preview changes.
--   [ ] Built one personal automation that solves a real problem.
+- [ ] Wrote and ran small Python scripts from the terminal.
+- [ ] Built a file organiser with a dry-run mode.
+- [ ] Used regex to extract a pattern from messy text.
+- [ ] Cleaned a spreadsheet without overwriting the source.
+- [ ] Built either a web watcher or a document-processing script.
+- [ ] Tried a Gmail API workflow with safe permissions.
+- [ ] Built one desktop macro and tested its fail-safe.
+- [ ] Added logs, useful errors, and a way to preview changes.
+- [ ] Built one personal automation that solves a real problem.
 
 ## Contributing
 
 Found something that could be improved?
 
--   Add resources that are practical, accessible, and relevant to the
+- Add resources that are practical, accessible, and relevant to the
     section.
--   Prefer real project links that readers can inspect and learn from.
--   Keep the roadmap focused: one good resource and one build per stage
+- Prefer real project links that readers can inspect and learn from.
+- Keep the roadmap focused: one good resource and one build per stage
     is better than a wall of links.
 
 See the repository's [CONTRIBUTING.md](../../CONTRIBUTING.md).
